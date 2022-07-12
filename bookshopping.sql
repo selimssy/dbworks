@@ -95,4 +95,6 @@ SELECT * FROM customer;
 SELECT * FROM orders;
 
 
+select to_char(orderdate, 'YYYY')
+from orders;
 

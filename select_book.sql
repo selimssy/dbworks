@@ -36,6 +36,15 @@ WHERE price >= 10000 AND price <= 20000;
 
 
 
+
+-- 책 번호가 5번이 아닌 도서 검색
+SELECT *
+FROM book
+WHERE bookid <> 5;
+
+
+
+
 -- 출판사가 '굿스포츠' 혹은 '대한미디어'인 도서를 검색
 -- 1. IN() 사용
 SELECT *
